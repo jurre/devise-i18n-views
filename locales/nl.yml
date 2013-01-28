@@ -1,0 +1,59 @@
+nl:
+  devise:
+    confirmations:
+      new:
+        resend_confirmation_instructions: Verzend herbevestiging
+    mailer:
+      confirmation_instructions:
+        action: Bevestig mijn account
+        greeting: Welkom %{recipient}!
+        instruction: ! 'U kunt uw email account bevestigen via de onderstaande link:'
+        subject: Bevestiging instructies
+      reset_password_instructions:
+        action: Wijzig mijn wachtwoord
+        greeting: Hallo %{recipient}!
+        instruction: Iemand heeft een link aangevraagd om uw wachtwoord te wijzigen, dat kunt u doen via de onderstaande link.
+        instruction_2: Als u dit niet heeft aangevraagd, negeer deze email dan.
+        instruction_3: Uw wachtwoord zal niet gewijzigd worden tot u de onderstaande link gebruikt en een nieuwe aanmaakt.
+        subject: Wachtwoord reset instructies
+      unlock_instructions:
+        action: Activeer mijn account
+        greeting: Hallo %{recipient}!
+        instruction: ! 'Klik op de onderstaande link om uw account te activeren:'
+        message: Uw account is geblokkeerd in verband met een overmatig aantal onsuccesvolle inlog pogingen.
+        subject: Activatie Instructies
+    passwords:
+      new:
+        forgot_your_password: Wachtwoord vergeten?
+        send_me_reset_password_instructions: Stuur me instructies om mijn wachtwoord te resetten
+      edit:
+        change_your_password: Wijzig uw wachtwoord
+        new_password: Nieuw wachtwoord
+        confirm_new_password: Bevestig nieuw wachtwoord
+        change_my_password: Wijzig mijn wachtwoord
+    registrations:
+      edit:
+        are_you_sure: Weet u het zeker?
+        cancel_my_account: Verwijder mijn account
+        leave_blank_if_you_don_t_want_to_change_it: laat leeg als u het niet wil wijzigen
+        title: Wijzig %{resource}
+        we_need_your_current_password_to_confirm_your_changes: we hebben uw huidige wachtwoord om de wijzigingen te bevestigen
+        update: Update
+        cancel_my_account: Verwijder mijn account
+        unhappy: Unhappy
+      new:
+        sign_up: Aanmelden
+    sessions:
+      new:
+        sign_in: Inloggen
+    shared:
+      links:
+        didn_t_receive_confirmation_instructions: Bevestigings instructies niet ontvangen?
+        didn_t_receive_unlock_instructions: Activatie instructies niet ontvangen?
+        forgot_your_password: Wachtwoord vergete ?
+        sign_in: Inloggen
+        sign_in_with_provider: Sign in with %{provider}
+        sign_up: Aanmelden
+    unlocks:
+      new:
+        resend_unlock_instructions: Verstuur activatie instructies opnieuw
