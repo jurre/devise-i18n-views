@@ -50,7 +50,7 @@ nl:
       links:
         didn_t_receive_confirmation_instructions: Bevestigings instructies niet ontvangen?
         didn_t_receive_unlock_instructions: Activatie instructies niet ontvangen?
-        forgot_your_password: Wachtwoord vergete ?
+        forgot_your_password: Wachtwoord vergeten?
         sign_in: Inloggen
         sign_in_with_provider: Sign in with %{provider}
         sign_up: Aanmelden
